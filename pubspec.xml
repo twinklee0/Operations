@@ -1,0 +1,31 @@
+name: operation
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.8 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Volume control
+  volume_controller: ^2.0.0
+
+  # Battery status
+  battery_plus: ^5.0.0
+
+  # Gallery images
+  photo_manager: ^3.0.0
+
+  # Recommended lint rules
+  flutter_lints: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
